@@ -32,7 +32,7 @@ I may possibly look into that later (at some point and if I have time).
 
 ## How to use *Gallica to Bibliography*
 
-The `Gallica2biblio` script is only meant to facilitate the use of these functions, it is not necessary to actually run the functions from `utils.py`.
+The `Gallica2biblio` script is only meant to facilitate the use of these functions, it is not necessary in order to actually run the functions from `utils.py`.
 
 The main functions are:
 * `parse_list(path_to_file)`, which takes your list of URLs/URIs as a TXT file with one URL/URI per line. Anything which does not contain `bnf.fr` will simply be ignored, so feel free to include other information, as long as every URL/URI is the only thing in its line.
